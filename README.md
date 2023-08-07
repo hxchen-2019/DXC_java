@@ -23,7 +23,7 @@ Username: RandomUser32
 Password: RandomUser32
 
 
-### User Account 
+### Manager Account 
 Username: Manager92
 Password: Manager92
 
