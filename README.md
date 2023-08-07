@@ -17,6 +17,17 @@ java Encoder
 
 # DXC Login Page
 
+## Login Details for Login Page
+### User Account 
+Username: RandomUser32
+Password: RandomUser32
+
+
+### User Account 
+Username: Manager92
+Password: Manager92
+
+
 ## Backend APIs
 
 ### Prerequisites (skip if you have a .env file)
