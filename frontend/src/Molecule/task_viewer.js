@@ -58,7 +58,7 @@ function TaskViewer() {
 
 
   useEffect(() => {
-    if (userType == "Admin") {
+    if (userType == "Manager") {
       navigate("/task_viewer_admin", { replace: true })
     }
   }, []);

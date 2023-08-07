@@ -11,7 +11,7 @@ const useAuthforUser = () => {
 
     const userType = useSelector((state) => state.login.userType)
 
-        if (userType == "Manager" || userType == "Admin") {
+        if (userType == "User" || userType == "Manager") {
             return true
         }
         else {

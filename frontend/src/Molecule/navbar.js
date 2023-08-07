@@ -21,7 +21,6 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import HomeIcon from '@mui/icons-material/Home';
 import LogoutIcon from '@mui/icons-material/Logout';
-import logo from '../logo.png'
 
 const Navbar = () => {
     const dispatch = useDispatch();
@@ -74,12 +73,12 @@ const Navbar = () => {
                             </Button>
                       </NavLink>
                     </Box>
-                    { userType === "VENDOR" || userType === "ADMIN" || userType === "APPROVER" ?
+                    { userType === "User" || userType === "Manager" || userType === "User" ?
                     <>
                     {/* Place User Related Nav Links here ############################################## */}
 
                     {/* END OF USER Related Nav Links here ############################################## */}
-                    {userType === "Admin" ?<>
+                    {userType === "Manager" ?<>
                     {/* Place Admin Related Nav Links here############################################## */}
                     <NavLink style={{ color: 'inherit', textDecoration: 'inherit'}} to="/manageAccount">
                       <Box display="flex" justifyContent="center" marginLeft="10px" marginRight="10px">
@@ -90,7 +89,7 @@ const Navbar = () => {
                     </NavLink>
 
                     {/* End of Admin Related Nav Links here ############################################## */}
-                    {userType === "APPROVER" ? <>
+                    {userType === "Manager" ? <>
                     {/* Place APPROVER Related Nav Links here############################################## */}
 
                     {/* End of APPROVER Related Nav Links here ############################################## */}
@@ -101,7 +100,7 @@ const Navbar = () => {
                     </> :
                     <></>
                     }
-                    { userType === "Manager" || userType === "Admin" ?
+                    { userType === "Manager" || userType === "User" ?
                     <>
                     {/* Place User Related Nav Links here ############################################## */}
                     <Box sx={{ flexGrow: 1 }} display="flex"  justifyContent="flex-end" >

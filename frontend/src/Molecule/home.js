@@ -1,7 +1,6 @@
 // Media Sources
 
 import CorporatePhoto from "../media/homescreen.jpg"
-import Logo from "../media/logo.png"
 
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
@@ -96,7 +95,7 @@ function Home() {
                 {/* Your other content goes here */}
                 <Grid container>
                     <Grid item xs={12}>
-                        <img src={Logo} style={{width: '320px',height: '80px', marginTop: '5%',marginBottom: '-5%', marginRight:"1%"}}/>
+                    <Typography variant="h2" marginTop={"2%"}>Logo</Typography>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h6" marginTop={"5%"} color="grey">Onboarding Portal</Typography>
@@ -104,7 +103,7 @@ function Home() {
                     <Grid container marginTop={"3%"}>
                         <Grid item xs={1} md={3}></Grid>
                         <Grid item xs={10} md={6}>
-                        <Typography variant="h6" align={"left"} marginTop={"2%"}>Admin or Vendor Login</Typography>
+                        <Typography variant="h6" align={"left"} marginTop={"2%"}>User or Manager Login</Typography>
                             <TextField fullWidth id="outlined-basic" label="Username" variant="filled" onChange={event => setusername(event.target.value)} onKeyDown={(event) => {if (event.key === 'Enter') {signin();}}}/>
                             {
                                 username.length > 1 && username.length <5 
