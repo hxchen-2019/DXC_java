@@ -19,12 +19,12 @@ java Encoder
 
 ## Login Details for Login Page
 ### User Account 
-Username: RandomUser32
+Username: RandomUser32 <br>
 Password: RandomUser32
 
 
 ### Manager Account 
-Username: Manager92
+Username: Manager92 <br>
 Password: Manager92
 
 
