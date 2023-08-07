@@ -1,12 +1,30 @@
-# Quantum Leap Incorporation Pte Ltd Onboarding Application
+# Encoder
+## How to run the Encoder
+1. Go to the folder containing Encoder folder
+```
+cd encoder
+```
+
+2. Compile the Java File
+```
+javac Encoder.java
+```
+
+3. Run the Java File
+```
+java Encoder
+```
+
+# DXC Login Page
 
 ## Backend APIs
 
 ### Prerequisites (skip if you have a .env file)
 
-1. Copy paste .env.example in the same folder. Rename to .env.
-
-2. Add your mongoDB altas and gmail credentials into the .env file.
+This make use of a number of applications that might need to be installed first
+1. Maven
+2. Springboot
+3. React
 
 ### Building application.
 
